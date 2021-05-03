@@ -11,7 +11,6 @@ spec:
       activeService: demo
       previewService: demo-canary
       autoPromotionEnabled: true
-      autoPromotionSeconds: 30
   replicas: 2
   revisionHistoryLimit: 2
   selector:
