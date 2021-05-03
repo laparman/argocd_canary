@@ -10,7 +10,8 @@ spec:
     blueGreen: 
       activeService: demo
       previewService: demo-canary
-      autoPromotionEnabled: false
+      autoPromotionEnabled: true
+      autoPromotionSeconds: 10
   replicas: 2
   revisionHistoryLimit: 2
   selector:
