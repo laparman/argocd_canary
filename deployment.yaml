@@ -27,7 +27,7 @@ spec:
       trafficRouting:
         istio:
            virtualService: 
-            name: istio-vs
+            name: bookinfo
             routes:
             - primary # At least one route is required
   replicas: 4
